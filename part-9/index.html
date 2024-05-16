@@ -1,0 +1,248 @@
+------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Website</title>
+  <style>
+    /* CSS styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #007bff;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .hero_section {
+      background-color: #fff;
+      padding: 100px 0;
+      text-align: center;
+    }
+
+    .hero_section h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      color: #007bff;
+    }
+
+    .hero_section p {
+      font-size: 20px;
+      margin-bottom: 40px;
+    }
+
+    .btn {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+
+    .about_section {
+      background-color: #f8f9fa;
+      padding: 80px 0;
+    }
+
+    .detail-box {
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 10px;
+    }
+
+    .detail-box h2 {
+      color: #007bff;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .detail-box p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #666;
+    }
+
+    .detail-box a {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    .detail-box a:hover {
+      color: #0056b3;
+    }
+
+    .main-textplace {
+      float: right;
+      width: 60%;
+    }
+
+    .main-text {
+      text-align: left;
+    }
+
+    .img-box {
+      width: 40%;
+      float: left;
+    }
+
+    .img-box img {
+      width: 80%;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color: #007bff;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      clear: both; /* This line ensures the footer is placed below floated elements don't forget */
+    }
+
+    footer .detail-box {
+      text-align: left;
+      padding: 20px;
+    }
+
+    footer ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    footer ul li {
+      margin-bottom: 10px;
+    }
+
+    footer ul li:before {
+      content: "•";
+      color: #fff;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="mycity.html">My City</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero_section">
+      <div class="container">
+        <h1>Welcome to My Personal Blog!</h1>
+        <p>Get ready to explore my journey and creations.</p>
+        <a href="about.html" class="btn">Learn More</a>
+      </div>
+    </section>
+
+    <section class="about_section layout_padding">
+      <div class="container">
+        <div class="img-box">
+          <img src="images/WhatsApp Image 2024-05-16 at 22.23.11_2c9a4198.jpg" alt="Profile Image">
+        </div>
+        <div class="main-textplace">
+          <div class="main-text">
+            <p>
+              First of all, My name is Bedirhan AVSAR and I'm from Tokat. I am a student of Sakarya University. I'm gonna give some information about the city that I live in, Tokat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Add more sections like services, blog, and contact-->
+  </main>
+
+  <footer>
+    <div class="detail-box">
+      <div class="heading_container">
+        <h2>CONTACT ME</h2>
+      </div>
+      <div>
+        <ul>
+          <li><p>Number: +1 234 567 890</p> </li>
+          <li><p>E-Mail: example@example.com</p></li>
+        </ul>
+      </div>
+      <div class="heading_container">
+        <h2>FOLLOW ME</h2>
+      </div>
+      <div class="col-md-4 col-lg-3">
+        <div class="info_social">
+          <div>
+            <a href="">
+              <img src="images/twitter.png" alt="">
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="images/linkedin.png" alt="">
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="images/instagram.png" alt="">
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="images/instagram.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <p>&copy; 2024 My Personal Website. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Include JavaScript files if needed -->
+
+</body>
+</html>
