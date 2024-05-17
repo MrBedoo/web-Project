@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover Tokat</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About me</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero_section">
+      <div class="container">
+        <h1>Welcome to Tokat</h1>
+        <p>Explore the beauty and history of Tokat, Turkey.</p>
+      </div>
+    </section>
+
+    <section class="slider_section">
+      <div class="slider">
+        <div class="slides">
+          <div class="slide">
+            <img src="images/tokat_castle.jpg" alt="Tokat Castle">
+            <div class="caption">Tokat Castle</div>
+          </div>
+          <div class="slide">
+            <img src="images/ballica_cave.jpg" alt="Ballica Cave">
+            <div class="caption">Ballica Cave</div>
+          </div>
+          <div class="slide">
+            <img src="images/tokat_historical_house.jpg" alt="Historical House">
+            <div class="caption">Historical House</div>
+          </div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+      </div>
+    </section>
+
+    <section class="about_section">
+      <div class="container">
+        <h2>About Tokat</h2>
+        <p>Tokat is a city in northern Turkey, known for its rich history and beautiful landscapes. From ancient castles to stunning caves, Tokat offers a variety of attractions for visitors.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Discover Tokat. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

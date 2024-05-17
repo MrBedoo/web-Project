@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="mycity.html">My City</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero_section">
+      <div class="container">
+        <h1>Welcome to My Personal Blog!</h1>
+        <p>Get ready to explore my journey and creations.</p>
+        <a href="about.html" class="btn">Learn More</a>
+      </div>
+    </section>
+
+    <section class="about_section layout_padding">
+      <div class="container">
+        <div class="img-box">
+          <img src="images/WhatsApp Image 2024-05-16 at 22.23.11_2c9a4198.jpg" alt="Profile Image">
+        </div>
+        <div class="main-textplace">
+          <div class="main-text">
+            <p>
+              First of all, my name is Bedirhan AVSAR and I'm from Tokat. I am a student of Sakarya University. I'm gonna give some information about the city that I live in, Tokat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="slider">
+      <div class="slides">
+        <div class="slide" id="slide-1">Slide 1</div>
+        <div class="slide" id="slide-2">Slide 2</div>
+        <div class="slide" id="slide-3">Slide 3</div>
+      </div>
+      <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+      <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+
+    <!-- Add more sections like services, blog, and contact-->
+  </main>
+
+  <footer>
+    <div class="detail-box">
+      <div class="heading_container">
+        <h2>CONTACT ME</h2>
+      </div>
+      <div>
+        <ul>
+          <li><p>Number: +1 234 567 890</p> </li>
+          <li><p>E-Mail: example@example.com</p></li>
+        </ul>
+      </div>
+      <div class="heading_container">
+        <h2>FOLLOW ME</h2>
+      </div>
+      <div class="info_social">
+        <div>
+          <a href="">
+            <img src="images/twitter.png" alt="Twitter">
+          </a>
+        </div>
+        <div>
+          <a href="">
+            <img src="images/linkedin.png" alt="LinkedIn">
+          </a>
+        </div>
+        <div>
+          <a href="">
+            <img src="images/instagram.png" alt="Instagram">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <p>&copy; 2024 My Personal Website. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
