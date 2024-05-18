@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .contact-form {
+            background: #fff;
+            padding: 20px 40px 20px 20px; /* Adds extra space on the right side */
+            margin: 20px; /* Adds space around the form */
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 15px; /* Softer corners */
+            max-width: 400px;
+            width: 100%;
+        }
+        .contact-form h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .contact-form .form-group {
+            margin-bottom: 15px;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px; /* Adds space between label and input */
+            border: 1px solid #ccc;
+            border-radius: 10px; /* Softer corners */
+            box-sizing: border-box;
+        }
+        .contact-form textarea {
+            resize: vertical;
+            height: 100px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            border: none;
+            color: white;
+            border-radius: 10px; /* softer corner */
+            cursor: pointer;
+            margin-top: 10px; /* Added space for the button */
+            transition: background-color 0.3s ease;
+        }
+        .contact-form button:hover {
+            background-color: #218838;
+        }
+        .contact-form .home-button {
+            background-color: #007bff;
+            margin-top: 20px;
+            text-align: center;
+            display: block;
+        }
+        .contact-form .home-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-form">
+        <h2>Contact Me</h2>
+        <form action="contact.php" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+        <a href="index.html" class="home-button">Return to Home</a>
+    </div>
+</body>
+</html>
